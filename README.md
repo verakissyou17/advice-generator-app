@@ -13,7 +13,7 @@ Users should be able to:
 ![](./src/images/FireShot%20Capture%20001%20-%20Advice%20Generator%20App.png)
 
 ### Links
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-main-jsysDwci33]()
 - Live Site URL: [https://verakissyou17.github.io/advice-generator-app/]()
 
 ### Built with
