@@ -1,4 +1,7 @@
 import { useState } from "react";
+import iconDice from './images/icon-dice.svg';
+import dividerDesktop from "./images/pattern-divider-desktop.svg";
+import dividerMobile from "./images/pattern-divider-mobile.svg";
 
 function App() {
   const [data, setData] = useState({
@@ -36,18 +39,18 @@ function App() {
           <div className="image-wrapper">
             <picture>
               <source
-                srcSet="src\images\pattern-divider-desktop.svg"
+                srcSet={dividerDesktop}
                 media="(min-width: 500px)"
               />
               <img
-                src="src\images\pattern-divider-mobile.svg"
+                src={dividerMobile}
                 alt="pattern-divider"
               />
             </picture>
           </div>
         </main>
           <button aria-label="Generate new quote"  type="button" onClick={getNewQuote}>
-            <img src="src\images\icon-dice.svg" alt="generate-quote" />
+            <img src={iconDice} alt="generate-quote" />
           </button>
       </div>
     </>
